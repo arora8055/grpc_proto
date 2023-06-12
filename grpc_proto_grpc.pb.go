@@ -4,7 +4,7 @@
 // - protoc             v4.23.2
 // source: grpc_proto.proto
 
-package ssh_proto
+package grpc_proto
 
 import (
 	context "context"
