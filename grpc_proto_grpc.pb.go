@@ -2,7 +2,7 @@
 // versions:
 // - protoc-gen-go-grpc v1.2.0
 // - protoc             v4.23.2
-// source: ssh.proto
+// source: grpc_proto.proto
 
 package ssh_proto
 
@@ -133,5 +133,5 @@ var SSHService_ServiceDesc = grpc.ServiceDesc{
 			ClientStreams: true,
 		},
 	},
-	Metadata: "ssh.proto",
+	Metadata: "grpc_proto.proto",
 }

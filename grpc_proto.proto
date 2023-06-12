@@ -1,6 +1,7 @@
 syntax = "proto3";
 option go_package = "https://github.com/arora8055/grpc_proto/ssh.proto";
-package ssh_proto;
+
+package grpc_proto;
 
 service SSHService {
   rpc ExecuteCommand(stream CommandRequest) returns (stream CommandResponse) {}

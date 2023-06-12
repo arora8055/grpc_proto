@@ -1,4 +1,4 @@
-module github.com/arora8055/grpc_proto.git
+module github.com/arora8055/grpc_proto
 
 go 1.20
 
